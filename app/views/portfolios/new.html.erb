@@ -1,0 +1,34 @@
+<h1>Create a New Portfolio Item</h1>
+
+<%= form_for(@portfolio_item) do |port_item| %>
+
+
+  <div class="field">
+    <%= port_item.label :title %>
+    <%= port_item.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= port_item.label :subtitle %>
+    <%= port_item.text_field :subtitle %>
+  </div>
+
+  <div class="field">
+    <%= port_item.label :body %>
+    <%= port_item.text_area :body %>
+  </div>
+
+  <div class="field">
+    <%= port_item.label :main_image %>
+    <%= port_item.text_area :main_image %>
+  </div>
+
+  <div class="field">
+    <%= port_item.label :thumb_image %>
+    <%= port_item.text_area :thumb_image %>
+  </div>
+
+  <div class="actions">
+    <%= port_item.submit %>
+  </div>
+<% end %>
