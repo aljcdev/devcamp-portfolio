@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/aljcdev/aljcdev_view_tool
+  revision: b398b9da9b3e85036a17b8540163a18821e91440
+  specs:
+    aljcdev_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -211,6 +217,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aljcdev_view_tool!
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.3.1)
   byebug

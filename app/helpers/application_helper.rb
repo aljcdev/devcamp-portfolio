@@ -16,4 +16,8 @@ module ApplicationHelper
     end 
   end
 
+  def copyright_generator
+    AljcdevViewTool::Renderer.copyright 'Alain Jolicoeur', 'All rights reserved'
+  end
+
 end
