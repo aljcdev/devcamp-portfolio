@@ -2,7 +2,7 @@
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
-
+// live lines should be 6 7 8 9 11 14 15 16 17
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
